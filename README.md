@@ -21,6 +21,7 @@ Available APIs:
 * WEX
 * BTCMarkets.net
 * Binance
+* BitMex
 
 
 ## Installation
@@ -29,14 +30,16 @@ Available APIs:
 
 The latest reviewed version can be found at
 https://extensions.gnome.org/extension/648/bitcoin-markets/
+nope - I dont know why but last version doesnt support BitMex :-(
 
 ### Via github.com
 
 The latest development version can be installed manually with these commands
 
-        git clone https://github.com/OttoAllmendinger/gnome-shell-bitcoin-markets.git
+        git clone https://github.com/volandku/gnome-shell-bitcoin-markets.git
         cd gnome-shell-bitcoin-markets
         make install
+        make restart
 
 Then go to https://extensions.gnome.org/local/ to turn on the extension or use
 gnome-tweak-tool.
